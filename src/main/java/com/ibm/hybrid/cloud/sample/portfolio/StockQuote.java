@@ -71,7 +71,7 @@ public class StockQuote extends Application {
 //				double value = ((JsonNumber) quote.get("price")).doubleValue();
 				System.out.println(quote.get("price"));
 			} else {
-				System.out.println("Usage: StockQuote <symbol>");
+				System.out.println("Usage: Stock-Quote <symbol>");
 			}
 		} catch (Throwable t) {
 			t.printStackTrace();
